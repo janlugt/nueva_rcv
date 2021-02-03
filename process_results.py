@@ -5,8 +5,6 @@ from pyrankvote import Candidate, Ballot
 
 NUMBER_OF_WINNERS = 2
 
-print()
-
 # Process all CSV files in directory.
 script_folder = os.path.dirname(os.path.realpath(__file__))
 for path in os.listdir(script_folder):
